@@ -72,17 +72,17 @@ defaults write com.apple.finder DisableAllAnimations -bool true
 ###############################################################################
 
 # Disable the swoosh animation when sending a message
-defaults write com.apple.Mail DisableSendAnimations -bool true
+# defaults write com.apple.Mail DisableSendAnimations -bool true
 
 # Disable the slide-in animation when opening a reply/compose window
-defaults write com.apple.Mail DisableReplyAnimations -bool true
+# defaults write com.apple.Mail DisableReplyAnimations -bool true
 
 ###############################################################################
 # Accessibility                                                               #
 ###############################################################################
 
 # Enable system-wide "Reduce Motion" (affects full-screen transitions, etc.)
-defaults write com.apple.universalaccess reduceMotion -bool true
+# defaults write com.apple.universalaccess reduceMotion -bool true
 
 ###############################################################################
 # Restart affected processes to apply changes immediately                     #
